@@ -1,0 +1,23 @@
+<%- include('partials/headerComments') -%>
+
+  <a href="/homeBlog"><img src="/images/homeIcon.png"></a>
+  <div class="box" id="heading">
+    <h1><%= listTitle %></h1>
+  </div>
+
+  <div class="box">
+        <% for (let i=0; i<newListItems.length; i++) { %>
+          <div class="item">
+            <ul>
+              <li><p><%=  newListItems[i].item  %></p></li>
+            </ul>
+          </div>
+        <% } %>
+
+      <form class="item" action="/homeBlog/comments/postComments" method="post">
+        <input type="text" name="newItem" placeholder="Comment / Suggestion" autofocus autocomplete="off">
+        <button type="submit" name="list" value="<%=listTitle%>">+</button>
+      </form>
+  </div>
+
+<%- include('partials/footerComments') -%>
