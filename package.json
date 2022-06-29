@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.2",
     "ejs": "^2.7.4",
     "express": "^4.17.3",
