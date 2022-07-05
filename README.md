@@ -1,0 +1,3 @@
+# Blogger-s_Stop
+A one-stop destination for all bloggers.
+- A Blog website that enables authenticated users to **browse and/or compose** a brand-new blog with previous **blogs in sync.** A unique feature allows users to make **suggestions and leave comments** on individual blog posts. - ExpressJS and Node modules like Body-parser, Lodash, and EJS power the backend with MongoDB(Mongoose). - **Bcrypt** is used to salt and hash passwords for **user authentication** and password security. - Constructed the front-end using Javascript, Bootstrap, EJS, and CSS, and deployed it using Heroku. - Try it **live** in the browser: [Blogger's Stop](https://boiling-peak-94404.herokuapp.com/)
